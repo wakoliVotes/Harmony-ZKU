@@ -1,5 +1,5 @@
 ### Harmony-ZKU
-#### A: 
-#### B:
+#### A: Assignment
+#### B: Assignment
 **Contract Script**
 **Screen-shots**

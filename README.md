@@ -61,7 +61,7 @@ contract HelloWorld {
 
 
 #### PART 2: Ballot Smart Contract
-**Contract Script**
-
+**Modified Contract Script**
+- See [Ballot.sol]() in files.
 **Screen-shots**
 

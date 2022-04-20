@@ -17,7 +17,7 @@
    - Step 1: Identify the colors the person is color blind to
    - Step 2: List all the colors the person is not colorblind to and all the colors they are colorblind to
    - Step 3: Eliminate all the colors not colorblind to, and remain with only the two (2) colors they are colorblind to them
-   - Step 4: Use logic, to show that NO Two Colors are Same (*they can be close, BUT not same*), which means for the two (2) colors the person is colorblind to, one is different from the other
+   - Step 4: By logic, show that NO Two Colors are Same (*they can be close, BUT not same*), which means for the two (2) colors the person is colorblind to, one is different from the other
    - Step 5: Conclude: 
        - Color A != Color B:
        - Hence: Objects are Colored Different

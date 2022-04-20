@@ -10,10 +10,10 @@
    - Hash is a form of encryption mechanism, that converts standard readable human texts/messages into encrypted code. The resulting code and the original text/message hence look very different.
    - People use hashing to improve data, messages and documents authenticity and security. Hashing is also used to improve authentication systems, e.g., hide passwords instead of using plain texts.
 4. **How would you prove to a colorblind person that two different colored objects are actually of different colors?**
-   - I can use the concept of Cross-Comparison and Elimination 
-   - ***Basis***
-   - It is evident that for a Colorblind person, they will not see any difference in two colors. This can be ***Red-Green*** or ***Yellow-Blue*** colorblindness. Hence, to prove that the colors are different, doing a cross comparison then eliminating the colors can be done.
-   - ***Steps***
+   - I can use cross-comparison and elimination concept   
+   ***Basis***
+   - It is evident that for a Colorblind person, they will not see any difference in two colors. This can be ***Red-Green*** or ***Yellow-Blue*** colorblindness. Hence, to prove that the colors are different, doing a cross comparison then eliminating the colors can be done.  
+  ***Steps***
    - Step 1: Identify the colors the person is color blind to
    - Step 2: List all the colors the person is not colorblind to and all the colors they are colorblind to
    - Step 3: Eliminate all the colors not colorblind to, and remain with only the two (2) colors they are colorblind to them

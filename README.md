@@ -62,6 +62,6 @@ contract HelloWorld {
 
 #### PART 2: Ballot Smart Contract
 **Modified Contract Script**
-- See [Ballot.sol]() in files.
+- See [Ballot.sol](https://github.com/danny-votez/Harmony-ZKU/blob/main/Ballot.sol) in files.
 **Screen-shots**
 

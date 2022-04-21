@@ -64,4 +64,3 @@ contract HelloWorld {
 **Modified Contract Script**
 - See [Ballot.sol](https://github.com/danny-votez/Harmony-ZKU/blob/main/Ballot.sol) in files.
 **Screen-shots**
-

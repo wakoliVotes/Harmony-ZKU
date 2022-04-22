@@ -58,15 +58,13 @@ contract HelloWorld {
 - Then, on Clicking Retrieve function, shows the value **4500**
 ![image](https://user-images.githubusercontent.com/77758884/164218116-9e157d2a-956f-4fda-8e4c-5a7241fde5a9.png)
 
-
-
 #### PART 2: Ballot Smart Contract
 **Original Ballot Contract Script**
 - See original [Voting Ballot Smart Contract](https://docs.soliditylang.org/en/v0.4.24/solidity-by-example.html) from source code page.
 
 **Modified Contract Script**
-- In the original Ballot (Voting) smart contract, delegate names are passed as *bytes32*
-- To allow simpple passing of names, the contract was modified to receive simple *string*
+- In the original [Ballot (Voting) smart contract](https://docs.soliditylang.org/en/v0.4.24/solidity-by-example.html), delegate names are passed as ***bytes32***
+- To allow simple passing of names, the contract was modified to receive name as ***string***
 - Next, [*startTime*]() & [*votedEnded*]() requested changes are also included
 - See Modified [Ballot.sol](https://github.com/danny-votez/Harmony-ZKU/blob/main/Ballot.sol) in files.
 

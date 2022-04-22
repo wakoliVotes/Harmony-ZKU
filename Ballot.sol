@@ -31,12 +31,24 @@ contract Ballot {
 
     address public chairperson;
 
+    // State variable startTime records voting start time
+    uint256 public startTime = block.timestamp;
+
     // This declares a state variable that
     // stores a `Voter` struct for each possible address.
     mapping(address => Voter) public voters;
 
     // A dyanamically-sized array of `Proposal` structs.
     Proposal[] public proposals;
+
+    // Modifier voteEnded checks if the voting period is over
+    modifier voteEnded() {
+        require(
+            block.timestamp <= (startTime + 5 minutes),
+            "Voting time has Ended"
+        );
+        _;
+    }
 
     // Create a new ballot to choose one of `proposalNames`.
     constructor(bytes32[] memory proposalNames) {
@@ -117,7 +129,7 @@ contract Ballot {
 
     // Give your vote (including votes delegated to you)
     // to proposal `proposal[proposal].name`.
-    function vote(uint256 proposal) external {
+    function vote(uint256 proposal) external voteEnded {
         Voter storage sender = voters[msg.sender];
         require(sender.weight != 0, "Has no right to vote");
         require(!sender.voted, "Already voted.");

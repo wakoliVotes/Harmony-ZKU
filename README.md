@@ -61,6 +61,13 @@ contract HelloWorld {
 
 
 #### PART 2: Ballot Smart Contract
+**Original Ballot Contract Script**
+- See original [Voting Ballot Smart Contract](https://docs.soliditylang.org/en/v0.4.24/solidity-by-example.html) from source code page.
+
 **Modified Contract Script**
-- See [Ballot.sol](https://github.com/danny-votez/Harmony-ZKU/blob/main/Ballot.sol) in files.
-**Screen-shots**
+- In the original Ballot (Voting) smart contract, delegate names are passed as *bytes32*
+- To allow simpple passing of names, the contract was modified to receive simple *string*
+- Next, [*startTime*]() & [*votedEnded*]() requested changes are also included
+- See Modified [Ballot.sol](https://github.com/danny-votez/Harmony-ZKU/blob/main/Ballot.sol) in files.
+
+**Screen shots**

@@ -69,8 +69,9 @@ contract HelloWorld {
 - See Modified [Ballot.sol](https://github.com/danny-votez/Harmony-ZKU/blob/main/Ballot.sol) in files.
 
 **Screen shots**
-- The Screenshot shows the startTime of contract transaction in ***Unix Epoch Time***
-- Next, it also shows the error message on the right after clicking ***vote*** later on with
+- Screenshot shows startTime of in ***Unix Epoch Time***, i.e., 1650872794 [Monday, April 25, 2022 10:46:34 AM GMT+03:00]
+- Next, it also shows the error message on the right after clicking ***vote*** later past
+- Below error message is displayed
 ```solidity
 transact to Ballot.vote pending ... 
 transact to Ballot.vote errored: VM error: revert.

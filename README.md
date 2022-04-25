@@ -25,34 +25,9 @@
 ### B: You sure you’re solid with Solidity?
 #### PART 1: Hello World Smart Contract
 **Contract Script**
+- See in files [HelloWorld.sol](https://github.com/danny-votez/Harmony-ZKU/blob/main/HelloWorld.sol)
 
-```solidity
 
-// SPDX-License-Identifier: GPL-3.0
-
-/**
-INSTRUCTIONS
-Program a super simple “Hello World” smart contract: write a storeNumber function to store
-an unsigned integer and then a retrieveNumber function to retrieve it. Clearly comment your code.
-*/
-
-pragma solidity ^0.8.13;
-
-contract HelloWorld {
-    // State variable declaration for the unassigned integer
-    uint public intValue;
-
-    // Integer storage function
-    function storeNumber (uint _intValue) public {
-        intValue = _intValue;
-    }
-
-    // Retrieving the unassigned integer
-    function retrieveNumber() public view returns (uint){
-        return intValue;
-    }
-}
-```
 **Screen-shots**
 - First, the Smart Contract was Deployed, then Integer was Stored, i.e., 4500.
 - Then, on Clicking Retrieve function, shows the value **4500**
@@ -63,14 +38,19 @@ contract HelloWorld {
 - See original [Voting Ballot Smart Contract](https://docs.soliditylang.org/en/v0.4.24/solidity-by-example.html) from source code page.
 
 **Modified Contract Script**
-- In the original [Ballot (Voting) smart contract](https://docs.soliditylang.org/en/v0.4.24/solidity-by-example.html), delegate names are passed as ***bytes32***
+- In the original [Ballot (Voting) smart contract](https://docs.soliditylang.org/en/v0.4.24/solidity-by-example.html), proposal names are passed as ***bytes32***
 - To allow simple passing of names, the contract was modified to receive name as ***string***
 - Next, [*startTime*]() & [*votedEnded*]() requested changes are also included
 - See Modified [Ballot.sol](https://github.com/danny-votez/Harmony-ZKU/blob/main/Ballot.sol) in files.
 
 **Screen shots**
-- Screenshot shows startTime of in ***Unix Epoch Time***, i.e., 1650872794 [Monday, April 25, 2022 10:46:34 AM GMT+03:00]
-- Next, it also shows the error message on the right after clicking ***vote*** later past
+- Screenshot shows startTime of in ***Unix Epoch Time***, i.e., 1650875666 [Monday, April 25, 2022 11:34:26 AM GMT+03:00]
+![image](https://user-images.githubusercontent.com/77758884/165052235-03fef919-5627-4ba8-b233-65678c59ac44.png)
+- The proposalNames are ["Mike","Dan","Rose","Larry","Jobs"]
+
+- Next screenshot shows the error message on the right after clicking ***vote*** later past ***5 minutes*** at 11:40 AM
+- ![image](https://user-images.githubusercontent.com/77758884/165052995-0628d98d-8f43-4ebc-af68-0df15a584f67.png)
+
 - Below error message is displayed
 ```solidity
 transact to Ballot.vote pending ... 
@@ -81,5 +61,7 @@ revert
 Reason provided by the contract: "Voting time has Ended".
 Debug the transaction to get more information.
 ```
-![image](https://user-images.githubusercontent.com/77758884/165048100-cdb81661-5947-48f3-aaf5-c9bd85ed5b16.png)
+## Task Details 
+- Link [Harmony Zero-Knowledge University](https://www.harmonyzku.one/)
 
+## End

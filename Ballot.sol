@@ -25,7 +25,7 @@ contract Ballot {
 
     // This is a type for a single proposal.
     struct Proposal {
-        bytes32 name; // short name (up to 32 bytes)
+        string name; // short name (up to 32 bytes)
         uint256 voteCount; // number of accumulated votes
     }
 
@@ -51,7 +51,8 @@ contract Ballot {
     }
 
     // Create a new ballot to choose one of `proposalNames`.
-    constructor(bytes32[] memory proposalNames) {
+    constructor(string[] memory proposalNames) {
+        chairperson = msg.sender;
         voters[chairperson].weight = 1;
 
         // For each of the provided proposal names,
@@ -157,7 +158,7 @@ contract Ballot {
     // Calls winningProposal() function to get the index
     // of the winnder contained in the proposals array and then
     // returns the name of the winner
-    function winnerName() external view returns (bytes32 winnerName_) {
+    function winnerName() external view returns (string memory winnerName_) {
         winnerName_ = proposals[winningProposal()].name;
     }
 }

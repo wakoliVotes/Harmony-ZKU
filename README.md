@@ -29,8 +29,8 @@
 
 
 **Screen-shots**
-- First, the Smart Contract was Deployed, then Integer was Stored, i.e., 4500.
-- Then, on Clicking Retrieve function, shows the value **4500**
+- First, the Smart Contract was Deployed, then Integer was Stored, i.e., 4500000.
+- Then, on Clicking Retrieve function, shows the value **4500000**
 ![image](https://user-images.githubusercontent.com/77758884/164218116-9e157d2a-956f-4fda-8e4c-5a7241fde5a9.png)
 
 #### PART 2: Ballot Smart Contract

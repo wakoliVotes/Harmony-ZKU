@@ -69,3 +69,16 @@ contract HelloWorld {
 - See Modified [Ballot.sol](https://github.com/danny-votez/Harmony-ZKU/blob/main/Ballot.sol) in files.
 
 **Screen shots**
+- The Screenshot shows the startTime of contract transaction in ***Unix Epoch Time***
+- Next, it also shows the error message on the right after clicking ***vote*** later on with
+```solidity
+transact to Ballot.vote pending ... 
+transact to Ballot.vote errored: VM error: revert.
+
+revert
+	The transaction has been reverted to the initial state.
+Reason provided by the contract: "Voting time has Ended".
+Debug the transaction to get more information.
+```
+![image](https://user-images.githubusercontent.com/77758884/165048100-cdb81661-5947-48f3-aaf5-c9bd85ed5b16.png)
+

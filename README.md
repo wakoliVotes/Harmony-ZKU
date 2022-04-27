@@ -49,7 +49,7 @@
 - The proposalNames are ["Mike","Dan","Rose","Larry","Jobs"]
 
 - Next screenshot shows the error message on the right after clicking ***vote*** later past ***5 minutes*** at 11:40 AM
-- ![image](https://user-images.githubusercontent.com/77758884/165052995-0628d98d-8f43-4ebc-af68-0df15a584f67.png)
+![image](https://user-images.githubusercontent.com/77758884/165052995-0628d98d-8f43-4ebc-af68-0df15a584f67.png)
 
 - Below error message is displayed
 ```solidity
